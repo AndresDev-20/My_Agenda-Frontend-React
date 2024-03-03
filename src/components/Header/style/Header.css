@@ -1,0 +1,59 @@
+.Header {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: blueviolet;
+	width: 100%;
+	padding: .7em;
+	text-align: center;
+	color: white;
+	position: fixed;
+	height: 5em;
+}
+.cerrar {
+	cursor: pointer;
+}
+.cerrar:hover {
+	border-bottom: 2px solid white;
+	border-radius: 1em;
+}
+.name {
+	border-bottom: 2px solid white;
+	border-radius: .3em;
+}
+.Header > nav {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: .2em;
+}
+.Header > nav > i {
+	font-size: 1.5em;
+}
+
+@media (min-width: 700px) {
+	.Header {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		background-color: blueviolet;
+		width: 100%;
+		padding: 1em;
+		text-align: center;
+		color: white;
+	}
+	.name {
+		border-bottom: 2px solid white;
+		border-radius: .3em;
+		font-size: 1.3em;
+	}
+	.Header > nav {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: .2em;
+	}
+	.Header > nav > i {
+		font-size: 1.5em;
+	}
+}

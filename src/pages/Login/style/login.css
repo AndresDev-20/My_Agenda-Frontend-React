@@ -1,0 +1,104 @@
+.Login {
+	width: 100%;
+	display: flex;
+    flex-direction: column;
+	padding: 1.5em;
+	gap: 1em;
+	margin-top: 2em;
+
+}
+.Login_div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 3em;
+}
+.Login_div > figure {
+	display: none;
+}
+.Login_form {
+	background-color: rgba(215, 215, 250, 0.74);
+	padding: 1.1em;
+	display: flex;
+	flex-direction: column;
+	border-radius: .5em;
+	width: 100%;
+	max-width: 400px;
+}
+.Login > h1 {
+	font-size: 2em;
+	color: blueviolet;
+}
+.Login_form > div {
+	display: flex;
+	flex-direction: column;
+	margin-top: 1em;
+}
+.Login_form > div >  input {
+	padding: 7px;
+	margin-top: 2px;
+	border: none;
+	border-radius: 5px;
+}
+.Login_form > button {
+	width: 100%;
+	margin-top: 2em;
+	padding: .5em;
+	font-size: 1em;
+	border: none;
+	background-color: blueviolet;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.Login_form > h2 {
+	color: blueviolet;
+	font-size: 1em;
+	margin: .5em;
+	cursor: pointer;
+}
+.Login_form-Register {
+	color: blueviolet;
+	display: flex;
+	align-items: end;
+	justify-content: end;
+	font-size: 14px;
+}
+.Login_form-Register > span  {
+    border-bottom: 3px solid blueviolet;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+@media (min-width: 1100px) {
+	.Login {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		padding: 1.5em;
+		gap: 1em;
+		margin-top: 2em;
+	}
+	.Login > h1 {
+		font-size: 2em;
+		color: blueviolet;
+	}
+	.Login > p {
+		font-size: 1.2em;
+		width: 100%;
+		max-width: 50em;
+	}
+	.Login_div {
+		display: flex;
+		flex-direction: row;
+		align-content: center;
+		justify-content: space-evenly;
+		margin-top: 2em;
+	}
+	.Login_div > figure {
+		display: block;
+		width: 100%;
+		max-width: 32em;
+	}
+}
