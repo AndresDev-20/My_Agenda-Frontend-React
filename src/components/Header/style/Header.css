@@ -9,6 +9,7 @@
 	color: white;
 	position: fixed;
 	height: 5em;
+	z-index: 1000;
 }
 .cerrar {
 	cursor: pointer;

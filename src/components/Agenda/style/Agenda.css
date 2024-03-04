@@ -59,13 +59,13 @@ hr {
 	background-color: blueviolet;
 }
 .ll{
-	display: flex;
-	justify-content: space-around;
+	display: grid;
+	justify-content: start;
 	padding-bottom: 2em;
 }
 .ll > figure {
 	width: 100%;
-	max-width: 10em;
+   
 }
 .add-task-btn {
 	border: none;
@@ -75,7 +75,14 @@ hr {
 	border-radius: .2em;
 	cursor: pointer;
 }
-@media (min-width: 700px) {
+.bx-trash {
+	background-color: red;
+	padding: .2em;
+	border-radius: 50%;
+	color: white;
+}
+
+@media (min-width: 550px) {
 	.add-task-container {
 		background-color: rgba(215, 215, 250, 0);
 		padding: 1em;
@@ -107,5 +114,15 @@ hr {
 	.ll > figure {
 		width: 100%;
 		max-width: 20em;
+		margin: 0;
+	}
+	.bx-trash {
+		background-color: rgba(255, 0, 0, 0.705);
+		padding: .4em;
+		border-radius: 50%;
+		color: white;
+		font-size: 1.2em;
+		margin-left: 3em;
+		cursor: pointer;
 	}
 }

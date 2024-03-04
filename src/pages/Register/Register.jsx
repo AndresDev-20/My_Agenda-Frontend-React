@@ -3,13 +3,14 @@ import './style/Register.css'
 import { useForm } from 'react-hook-form'
 import  axios  from 'axios'
 import { useNavigate } from 'react-router-dom';
+const Api = import.meta.env.VITE_REACT_APP_URL;
 
 const Register = () => {
  const {register, handleSubmit, reset} = useForm()
  const navigate = useNavigate()
  const submit = (data) => {
       console.log(data)
-		const url = "http://localhost:8080/api/v1/user"
+		const url = `${Api}/user`
 		axios.post(url, data)
 		.then(res => {
 			res.data

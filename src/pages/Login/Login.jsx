@@ -4,6 +4,7 @@ import { useForm } from 'react-hook-form';
 import axios from 'axios'
 import Agenda from '../../components/Agenda/Agenda';
 import { useState } from 'react';
+const Api = import.meta.env.VITE_REACT_APP_URL;
 
 const Login = () => {
 	const [Token, setToken] = useState(localStorage.getItem('token') || false)
@@ -13,7 +14,7 @@ const Login = () => {
 	}
 const {register, handleSubmit, reset} = useForm()
 const submit = (data) => {
-	const url = "http://localhost:8080/api/v1/user/login"
+	const url = `${Api}/user/login`
 	axios.post(url, data)
 	.then(res => {
 		setToken(localStorage.setItem("token", res.data.token))

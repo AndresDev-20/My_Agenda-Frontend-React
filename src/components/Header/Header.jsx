@@ -7,6 +7,12 @@ const Header = ({name, token}) => {
 		localStorage.removeItem("UserId")
 		token(false)
 	}
+	setTimeout(()=>{
+		localStorage.removeItem("token")
+		localStorage.removeItem("UserId")
+		token(false)
+	}, 50400000)
+
 	const Fecha = new Date()
 	let fecha = Fecha.toLocaleDateString()
   return (
