@@ -21,6 +21,9 @@
 .name {
 	border-bottom: 2px solid white;
 	border-radius: .3em;
+	transform: scale(0);
+	height: 0;
+	width: 0;
 }
 .Header > nav {
 	display: flex;
@@ -46,7 +49,18 @@
 	.name {
 		border-bottom: 2px solid white;
 		border-radius: .3em;
-		font-size: 1.3em;
+		font-size: 1.3em;	transform: scale(1);
+		height: 100%;
+		width: 10em;
+	
+	}
+	.name2 {
+		border-bottom: 2px solid blueviolet;
+		border-radius: .3em .0em .3em .0em;
+		color: blueviolet;
+		width: 100%;
+		max-width: 12em;
+		display: none;
 	}
 	.Header > nav {
 		display: flex;

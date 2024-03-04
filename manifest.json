@@ -1,0 +1,22 @@
+{
+	"name": "My Agenda",
+	"short_name": "My Agenda",
+	"description": "Hello, my name is Yeison Marroquin, and I wish you a good experience in this app that I created for you",
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "#ffffff",
+	"theme_color": "#000000",
+	"icons": [
+	  {
+		"src": "/path/to/icon-192x192.png",
+		"sizes": "192x192",
+		"type": "image/png"
+	  },
+	  {
+		"src": "/path/to/icon-512x512.png",
+		"sizes": "512x512",
+		"type": "image/png"
+	  }
+	]
+  }
+  

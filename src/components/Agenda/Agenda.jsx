@@ -47,6 +47,8 @@ const Agenda = ({ token }) => {
     <div className="agenda">
       <Header key={userId} name={user?.name} token={token} />
       <div className="agenda-container">
+		
+	  <h1 className='name2'>Bienvenido {user?.name}</h1>
         <div className="add-task-container ">
           <div className="div">
             <button onClick={abrir} className="add-task-btn">

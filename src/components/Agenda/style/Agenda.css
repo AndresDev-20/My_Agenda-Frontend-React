@@ -81,6 +81,13 @@ hr {
 	border-radius: 50%;
 	color: white;
 }
+.name2 {
+	border-bottom: 2px solid blueviolet;
+	border-radius: .3em .0em .3em .0em;
+	color: blueviolet;
+	width: 100%;
+	max-width: 12em;
+}
 
 @media (min-width: 550px) {
 	.add-task-container {
@@ -125,4 +132,6 @@ hr {
 		margin-left: 3em;
 		cursor: pointer;
 	}
+
+	
 }
