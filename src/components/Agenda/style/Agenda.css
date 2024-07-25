@@ -24,6 +24,9 @@
 	flex-direction: column;
 	gap: 1em;
 	border-radius: .5em;
+	width: 100%;
+	max-width: 33em;
+	margin: auto;
 }
 .div {
 	width: 100%;
@@ -33,7 +36,9 @@
 .task-list {
 	display: grid;
 	gap: .5em;
+	list-style: none;
 }
+
 .texttt{
 	font-size: 1.3em;
 	color: blueviolet;
@@ -44,12 +49,24 @@
 	border-radius: .5em;
 }
 .task-item {
-	display: flex;align-items: center;
-	gap: 1em;
+	display: grid;
+	grid-template-columns: 0fr 3fr 1fr;
+	gap: 4em;
+	margin-left: 0em;
+	margin-bottom: .5em;
 }
 .task-item > div{
-	display: grid;
+	display: flex;
+	flex-direction: column;
+	margin-left: -3em;
 }
+
+.bx-check {
+	font-weight: 800;
+	font-size: 1.4em;
+	color: red;
+}
+
 .Horario {
 	font-size: .8em;
 	color: blueviolet;
@@ -80,6 +97,12 @@ hr {
 	padding: .2em;
 	border-radius: 50%;
 	color: white;
+	max-width: 2em;
+	height: 2em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
 }
 .name2 {
 	border-bottom: 2px solid blueviolet;
@@ -89,7 +112,7 @@ hr {
 	max-width: 12em;
 }
 
-@media (min-width: 550px) {
+@media (min-width: 747px) {
 	.add-task-container {
 		background-color: rgba(215, 215, 250, 0);
 		padding: 1em;
@@ -110,8 +133,16 @@ hr {
 		max-width: 7em;
 		text-align: center;
 		border-radius: .5em;
-		margin: auto;
-		margin-bottom: .2;
+		margin: 1;
+		margin-bottom: 1em;
+		margin-left: 5.5em;
+	}
+	.task-item {
+		display: grid;
+		grid-template-columns: 0fr 3fr 1fr;
+		gap: 4em;
+		margin-left: 3em;
+		margin-bottom: 0em;
 	}
 	.ll{
 		display: flex;
@@ -125,11 +156,12 @@ hr {
 	}
 	.bx-trash {
 		background-color: rgba(255, 0, 0, 0.705);
-		padding: .4em;
-		border-radius: 50%;
-		color: white;
-		font-size: 1.2em;
-		margin-left: 3em;
+		width: 100%;
+		max-width: 2em;
+		height: 2em;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 		cursor: pointer;
 	}
 

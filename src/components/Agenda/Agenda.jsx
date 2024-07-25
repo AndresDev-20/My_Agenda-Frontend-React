@@ -60,11 +60,9 @@ const Agenda = ({ token }) => {
           <div className="ll">
             <ul className="task-list">
               {user?.queasers?.map((task) => (
-                <li key={task.id} className="task-item">
-                  <span className="checkbox-container">
-                    <input type="checkbox" className="checkbox" />
-                  </span>
-					<div>
+                <li key={task.id} className="task-item">   
+                <i className='bx bx-check'></i>
+                  <div>
                     <span>{task?.name}</span>
                     <span className="Horario">{task?.horario}</span>
                   </div>
