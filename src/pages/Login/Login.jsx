@@ -23,7 +23,7 @@ const submit = (data) => {
 		reset()
 	} )
 	.catch(err => {
-		err
+		console.log(err)
 		alert("Lo siento pero este usuario no esta registrado o has ingresado los datos mal")
 	})
 }
