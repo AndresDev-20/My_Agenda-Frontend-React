@@ -1,27 +1,43 @@
-import React from 'react'
-import './style/Header.css'
+import React, { useState, useEffect } from 'react';
+import './Header.css';
 
-const Header = ({name, token}) => {
-	const eliminar = () => {
-		localStorage.removeItem("token")
-		localStorage.removeItem("UserId")
-		token(false)
-	}
-	setTimeout(()=>{
-		localStorage.removeItem("token")
-		localStorage.removeItem("UserId")
-		token(false)
-	}, 50400000)
+const Header = () => {
+  const [time, setTime] = useState(new Date());
 
-	const Fecha = new Date()
-	let fecha = Fecha.toLocaleDateString()
+  useEffect(() => {
+    const updateClock = () => {
+      setTime(new Date());
+    };
+
+    const intervalId = setInterval(updateClock, 1000);
+
+    return () => clearInterval(intervalId);
+  }, []);
+
+  // Función para formatear la hora en formato de 12 horas con AM/PM
+  const formatTime = (date) => {
+    let hours = date.getHours();
+    const minutes = String(date.getMinutes()).padStart(2, '0');
+    const seconds = String(date.getSeconds()).padStart(2, '0');
+    const ampm = hours >= 12 ? 'PM' : 'AM';
+
+    hours = hours % 12;
+    hours = hours ? hours : 12; // La hora '0' debería ser '12'
+    hours = String(hours).padStart(2, '0');
+
+    return `${hours}:${minutes}:${seconds} ${ampm}`;
+  };
+
   return (
-	<header className='Header'>
-	   <nav onClick={eliminar} className='cerrar'> <i className='bx bx-power-off'></i><span>Cerrar Sesion</span></nav>
-	   <nav className='name'>Bienvenido {name}</nav>
-	   <nav><i className='bx bxs-time'></i>{fecha}</nav>
-	</header>
-  )
-}
+    <div className='Header'>
+		<figure>
+			<img src="../../../public/images/logo.png" alt="" />
+		</figure>
+      <div className='Clock'>
+        <span>{formatTime(time)}</span>
+      </div>
+    </div>
+  );
+};
 
-export default Header
+export default Header;

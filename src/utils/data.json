@@ -1,0 +1,226 @@
+{
+	"days": [
+	  {
+		"id": 1,
+		"name": "Lunes",
+		"schedule": [
+		  {
+			"title": "Ejercicio físico (30 minutos)",
+			"time": "7:00 am"
+		  },
+		  {
+			"title": "Desayuno saludable",
+			"time": "8:00 am"
+		  },
+		  {
+			"title": "Estudio de inglés (1 hora)",
+			"time": "9:00 am"
+		  },
+		  {
+			"title": "Trabajo en proyecto personal de programación (2 horas)",
+			"time": "10:00 am"
+		  },
+		  {
+			"title": "Almuerzo saludable",
+			"time": "1:00 pm"
+		  },
+		  {
+			"title": "Lectura de libro o artículo relacionado con programación (1 hora)",
+			"time": "2:00 pm"
+		  },
+		  {
+			"title": "Descanso y relajación (1 hora)",
+			"time": "4:00 pm"
+		  },
+		  {
+			"title": "Revisión de metas y planificación para el día siguiente (30 minutos)",
+			"time": "5:00 pm"
+		  }
+		]
+	  },
+	  {
+		"id": 2,
+		"name": "Martes",
+		"schedule": [
+		  {
+			"title": "Meditación y mindfulness (30 minutos)",
+			"time": "7:00 am"
+		  },
+		  {
+			"title": "Desayuno saludable",
+			"time": "8:00 am"
+		  },
+		  {
+			"title": "Estudio de inglés (1 hora)",
+			"time": "9:00 am"
+		  },
+		  {
+			"title": "Trabajo en proyecto personal de programación (2 horas)",
+			"time": "10:00 am"
+		  },
+		  {
+			"title": "Almuerzo saludable",
+			"time": "1:00 pm"
+		  },
+		  {
+			"title": "Aprendizaje de algo nuevo en programación (1 hora)",
+			"time": "2:00 pm"
+		  },
+		  {
+			"title": "Descanso y relajación (1 hora)",
+			"time": "4:00 pm"
+		  },
+		  {
+			"title": "Revisión de metas y planificación para el día siguiente (30 minutos)",
+			"time": "5:00 pm"
+		  }
+		]
+	  },
+	  {
+		"id": 3,
+		"name": "Miércoles",
+		"schedule": [
+		  {
+			"title": "Ejercicio físico (30 minutos)",
+			"time": "7:00 am"
+		  },
+		  {
+			"title": "Desayuno saludable",
+			"time": "8:00 am"
+		  },
+		  {
+			"title": "Estudio de inglés (1 hora)",
+			"time": "9:00 am"
+		  },
+		  {
+			"title": "Trabajo en proyecto personal de programación (2 horas)",
+			"time": "10:00 am"
+		  },
+		  {
+			"title": "Almuerzo saludable",
+			"time": "1:00 pm"
+		  },
+		  {
+			"title": "Revisión de conceptos de programación (1 hora)",
+			"time": "2:00 pm"
+		  },
+		  {
+			"title": "Descanso y relajación (1 hora)",
+			"time": "4:00 pm"
+		  },
+		  {
+			"title": "Revisión de metas y planificación para el día siguiente (30 minutos)",
+			"time": "5:00 pm"
+		  }
+		]
+	  },
+	  {
+		"id": 4,
+		"name": "Jueves",
+		"schedule": [
+		  {
+			"title": "Meditación y mindfulness (30 minutos)",
+			"time": "7:00 am"
+		  },
+		  {
+			"title": "Desayuno saludable",
+			"time": "8:00 am"
+		  },
+		  {
+			"title": "Estudio de inglés (1 hora)",
+			"time": "9:00 am"
+		  },
+		  {
+			"title": "Trabajo en proyecto personal de programación (2 horas)",
+			"time": "10:00 am"
+		  },
+		  {
+			"title": "Almuerzo saludable",
+			"time": "1:00 pm"
+		  },
+		  {
+			"title": "Aprendizaje de algo nuevo en programación (1 hora)",
+			"time": "2:00 pm"
+		  },
+		  {
+			"title": "Descanso y relajación (1 hora)",
+			"time": "4:00 pm"
+		  },
+		  {
+			"title": "Revisión de metas y planificación para el día siguiente (30 minutos)",
+			"time": "5:00 pm"
+		  }
+		]
+	  },
+	  {
+		"id": 5,
+		"name": "Viernes",
+		"schedule": [
+		  {
+			"title": "Ejercicio físico (30 minutos)",
+			"time": "7:00 am"
+		  },
+		  {
+			"title": "Desayuno saludable",
+			"time": "8:00 am"
+		  },
+		  {
+			"title": "Estudio de inglés (1 hora)",
+			"time": "9:00 am"
+		  },
+		  {
+			"title": "Trabajo en proyecto personal de programación (2 horas)",
+			"time": "10:00 am"
+		  },
+		  {
+			"title": "Almuerzo saludable",
+			"time": "1:00 pm"
+		  },
+		  {
+			"title": "Revisión de conceptos de programación (1 hora)",
+			"time": "2:00 pm"
+		  },
+		  {
+			"title": "Descanso y relajación (1 hora)",
+			"time": "4:00 pm"
+		  },
+		  {
+			"title": "Revisión de metas y planificación para el día siguiente (30 minutos)",
+			"time": "5:00 pm"
+		  }
+		]
+	  },
+	  {
+		"id": 6,
+		"name": "Sábado",
+		"schedule": [
+		  {
+			"title": "Desayuno saludable",
+			"time": "8:00 am"
+		  },
+		  {
+			"title": "Revisión de metas y planificación para la semana (1 hora)",
+			"time": "9:00 am"
+		  },
+		  {
+			"title": "Trabajo en proyecto personal de programación (2 horas)",
+			"time": "10:00 am"
+		  },
+		  {
+			"title": "Almuerzo saludable",
+			"time": "1:00 pm"
+		  },
+		  {
+			"title": "Aprendizaje de algo nuevo en programación (1 hora)",
+			"time": "2:00 pm"
+		  },
+		  {
+			"title": "Descanso y relajación (1 hora)",
+			"time": "4:00 pm"
+		  }
+		]
+	  }
+	],
+	"Bienvenida": "Te doy la bienvenida a tu app de rutinas escoge en el menu anterior el dia"
+  }
+  

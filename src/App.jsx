@@ -1,15 +1,12 @@
-import { Routes, Route } from 'react-router-dom'
 import './App.css'
-import Login from './pages/Login/Login'
-import Register from './pages/Register/Register'
+import Day from './components/Days/Day'
+import Header from './components/Header/Header'
 function App() {
 
   return (
     <div>
-     <Routes>
-        <Route path='/' element={<Login/>}/>
-        <Route path='/register' element={<Register/>}/>
-     </Routes>
+      <Header/>
+      <Day/>
     </div>
   )
 }

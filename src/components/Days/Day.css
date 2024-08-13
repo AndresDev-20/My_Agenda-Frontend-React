@@ -1,0 +1,194 @@
+.Days {
+	display: flex;
+	flex-direction: column;
+	padding: 1em;
+	justify-content: center;
+	align-items: center;
+}
+
+.Days__Menu {
+	display: flex;
+	flex-wrap: wrap;
+	gap: .7em;
+	width: 100%;
+	padding: 1em 0em 2em 0em;
+}
+
+.Days__Menu > li {
+	background-color: var(--color1);
+	padding: .3em;
+	font-size: .9em;
+	color: var(--color2);
+	width: 100%;
+	text-align: center;
+	max-width: 5.5em;
+	border-radius: .2em;
+	cursor: pointer;
+}
+
+.Bienvenida {
+	color: var(--color1);
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.Days__day {
+	position: relative;
+	box-shadow: 1px 4px 30px rgb(213, 199, 241);
+	border: 1px solid var(--color2);
+	padding: 1em;
+	border-radius: .4em;
+	width: 100%;
+	max-width: 32em;
+	overflow: hidden; 
+  }
+  
+  .Days__day::before {
+	content: ""; 
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: 
+	linear-gradient(rgba(241, 240, 247, 0.685), rgba(143, 149, 235, 0.699)),
+	url(../../../public/images/Image8.png);
+	background-size: cover; 
+	background-position: center; 
+	opacity: 0.5;
+	z-index: -1; 
+  }
+
+  
+  
+.day__name {
+	color: var(--color1);
+	font-size: 2em;
+	border-bottom: 1px solid var(--color1);
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+.day__ul {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+
+.day__ul > li > span:first-child{
+	width: 100%;
+	max-width: 5em;
+	color: var(--color1);
+	font-size: 1.1em;
+	font-weight: 700;
+}
+
+@media (min-width: 700px) {
+	.Days {
+		display: flex;
+		flex-direction: row;
+		padding: 1em;
+		justify-content: start;
+		align-items: center;
+		gap: 2em;
+	}
+	.Days__day {
+		position: relative;
+		box-shadow: 1px 4px 30px rgb(213, 199, 241);
+		border: 1px solid var(--color2);
+		padding: 1em;
+		border-radius: .4em;
+		width: 100%;
+		max-width: 32em;
+		overflow: hidden; 
+	  }
+	  .Days__Menu {
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: column;
+		gap: 2em;
+		width: 100%;
+		max-width: 15em;
+		padding: 1em 0em 2em 0em;
+		position: fixed;
+		top: 0;
+		background-color: var(--color1);
+		left: 0;
+		align-items: center;
+		padding-top: 8em;
+		height: 100vh;
+		border-right: 2px solid var(--color1);
+	}
+	
+	.Days__Menu > li {
+		background-color: var(--color2);
+		padding: .3em;
+		font-size: .9em;
+		color: var(--color1);
+		width: 100%;
+		text-align: center;
+		max-width: 100%;
+		border-radius: 0em;
+		cursor: pointer;
+	}
+	
+	.Bienvenida {
+		color: var(--color1);
+		text-align: center;
+		font-size: 1.5em;
+		margin-bottom: 14em;
+	}
+	
+	.Days__day {
+		position: relative;
+		box-shadow: 1px 4px 30px rgb(213, 199, 241);
+		border: 1px solid var(--color2);
+		padding: 1em;
+		border-radius: .4em;
+		width: 100%;
+		overflow: hidden; 
+		margin-left: 40%;
+		margin-top: 2em;
+	  }
+	  
+	  .Days__day::before {
+		content: ""; 
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-image: 
+		linear-gradient(rgba(241, 240, 247, 0.685), rgba(143, 149, 235, 0.699)),
+		url(../../../public/images/Image8.png);
+		background-size: cover; 
+		background-position: center; 
+		opacity: 0.5;
+		z-index: -1; 
+	  }
+	
+	  
+	  
+	.day__name {
+		color: var(--color1);
+		font-size: 2em;
+		border-bottom: 1px solid var(--color1);
+		text-align: center;
+		margin-bottom: 1em;
+	}
+	
+	.day__ul {
+		display: flex;
+		flex-direction: column;
+		gap: 1em;
+	}
+	
+	.day__ul > li > span:first-child{
+		width: 100%;
+		max-width: 5em;
+		color: var(--color1);
+		font-size: 1.1em;
+		font-weight: 700;
+	}
+	
+}
