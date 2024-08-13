@@ -31,7 +31,7 @@ const Header = () => {
   return (
     <div className='Header'>
 		<figure>
-			<img src="../../../public/images/logo.png" alt="" />
+			<img src="../../../images/logo.png" alt="" />
 		</figure>
       <div className='Clock'>
         <span>{formatTime(time)}</span>
