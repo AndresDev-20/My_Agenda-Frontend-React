@@ -1,214 +1,214 @@
 {
-	"days": [
-	  {
-		"id": 1,
-		"name": "Lunes",
-		"schedule": [
-			{
-				"title": "Despertar",
-				"time": "6:00 AM"
-			  },
-			  {
-				"title": "Entrenamiendo de boxeo",
-				"time": "6:15 AM | 7:30 AM"
-			  },
-		  {
-			"title": "Desayuno saludable y Ducha",
-			"time": "8:00 AM"
-		  },
-		  {
-			"title": "Estudio de inglés (3 horas y media)",
-			"time": "9:00 AM | 12:30 PM"
-		  },
-		  {
-			"title": "Almuerzo saludable",
-			"time": "12:31 PM"
-		  },
-		  {
-			"title": "Estudio de tecnología de programación",
-			"time": "1:00 PM | 3:30 PM"
-		  },
-		  {
-			"title": "Avances del SENA o proyecto productivo",
-			"time": "4:00 PM | 6:00 PM"
-		  }
-		]
-	  },
-	  {
-		"id": 2,
-		"name": "Martes",
-		"schedule": [
-			{
-				"title": "Despertar",
-				"time": "6:00 AM"
-			  },
-			  {
-				"title": "Entrenamiento de Muay Thai",
-				"time": "6:15 AM | 7:30 AM"
-			  },
-		  {
-			"title": "Desayuno saludable y Ducha",
-			"time": "8:00 AM"
-		  },
-		  {
-			"title": "Estudio de inglés (3 horas y media)",
-			"time": "9:00 AM | 12:30 PM"
-		  },
-		  {
-			"title": "Almuerzo saludable",
-			"time": "12:31 PM"
-		  },
-		  {
-			"title": "Estudio de tecnología de programación",
-			"time": "1:00 PM | 3:30 PM"
-		  },
-		  {
-			"title": "Trabajo en proyecto personal",
-			"time": "4:00 PM | 6:00 PM"
-		  }
-		]
-	  },
-	  {
-		"id": 3,
-		"name": "Miércoles",
-		"schedule": [
-			{
-				"title": "Despertar",
-				"time": "6:00 AM"
-			  },
-			  {
-				"title": "Entrenamiento de boxeo",
-				"time": "6:15 AM | 7:30 AM"
-			  },
-		  {
-			"title": "Desayuno saludable y Ducha",
-			"time": "8:00 AM"
-		  },
-		  {
-			"title": "Estudio de inglés (3 horas y media)",
-			"time": "9:00 AM | 12:30 PM"
-		  },
-		  {
-			"title": "Almuerzo saludable",
-			"time": "12:31 PM"
-		  },
-		  {
-			"title": "Estudio de tecnología de programación",
-			"time": "1:00 PM | 3:30 PM"
-		  },
-		  {
-			"title": "Revisión de conceptos de programación",
-			"time": "4:00 PM | 6:00 PM"
-		  }
-		]
-	  },
-	  {
-		"id": 4,
-		"name": "Jueves",
-		"schedule": [
-			{
-				"title": "Despertar",
-				"time": "6:00 AM"
-			  },
-			  {
-				"title": "Entrenamiento de Muay Thai",
-				"time": "6:15 AM | 7:30 AM"
-			  },
-		  {
-			"title": "Desayuno saludable y Ducha",
-			"time": "8:00 AM"
-		  },
-		  {
-			"title": "Estudio de inglés (3 horas y media)",
-			"time": "9:00 AM | 12:30 PM"
-		  },
-		  {
-			"title": "Almuerzo saludable",
-			"time": "12:31 PM"
-		  },
-		  {
-			"title": "Estudio de tecnología de programación",
-			"time": "1:00 PM | 3:30 PM"
-		  },
-		  {
-			"title": "Revisión de metas y planificación",
-			"time": "4:00 PM | 6:00 PM"
-		  }
-		]
-	  },
-	  {
-		"id": 5,
-		"name": "Viernes",
-		"schedule": [
-			{
-				"title": "Despertar",
-				"time": "6:00 AM"
-			  },
-			  {
-				"title": "Entrenamiento de boxeo",
-				"time": "6:15 AM | 7:30 AM"
-			  },
-		  {
-			"title": "Desayuno saludable y Ducha",
-			"time": "8:00 AM"
-		  },
-		  {
-			"title": "Estudio de inglés (3 horas y media)",
-			"time": "9:00 AM | 12:30 PM"
-		  },
-		  {
-			"title": "Almuerzo saludable",
-			"time": "12:31 PM"
-		  },
-		  {
-			"title": "Estudio de tecnología de programación",
-			"time": "1:00 PM | 3:30 PM"
-		  },
-		  {
-			"title": "Revisión de conceptos de programación",
-			"time": "4:00 PM | 6:00 PM"
-		  }
-		]
-	  },
-	  {
-		"id": 6,
-		"name": "Sábado",
-		"schedule": [
-			{
-				"title": "Despertar",
-				"time": "7:00 AM"
-			  },
-			  {
-				"title": "Entrenamiento de Mixto",
-				"time": "7:15 AM | 8:00 AM"
-			  },
-		  {
-			"title": "Desayuno saludable y Ducha",
-			"time": "8:00 AM"
-		  },
-		  {
-			"title": "Revisión de metas y planificación para la semana",
-			"time": "9:00 AM | 10:00 AM"
-		  },
-		  {
-			"title": "Trabajo en proyecto personal de programación",
-			"time": "10:00 AM | 12:30 PM"
-		  },
-		  {
-			"title": "Almuerzo saludable",
-			"time": "12:31 PM"
-		  },
-		  {
-			"title": "Aprendizaje de algo nuevo en programación",
-			"time": "1:00 PM | 3:30 PM"
-		  },
-		  {
-			"title": "Descanso y relajación",
-			"time": "4:00 PM | 6:00 PM"
-		  }
-		]
-	  }
-	],
-	"Bienvenida": "Te doy la bienvenida a tu app de rutinas, escoge en el menú anterior el día."
-  }
-  
+  "days": [
+    {
+      "id": 1,
+      "name": "Lunes",
+	  "complete": false,
+      "schedule": [
+        {
+          "title": "Despertar",
+          "time": "6:00 AM"
+        },
+        {
+          "title": "Entrenamiendo de boxeo",
+          "time": "6:15 AM | 7:30 AM"
+        },
+        {
+          "title": "Desayuno saludable y Ducha",
+          "time": "8:00 AM"
+        },
+        {
+          "title": "Estudio de inglés (3 horas y media)",
+          "time": "9:00 AM | 12:30 PM"
+        },
+        {
+          "title": "Almuerzo saludable",
+          "time": "12:31 PM"
+        },
+        {
+          "title": "Seguimiento de ingles",
+          "time": "1:00 PM | 2:30 PM"
+        },
+        {
+          "title": "Desarrollo de software",
+          "time": "3:00 PM | 6:00 PM"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Martes",
+      "schedule": [
+        {
+          "title": "Despertar",
+          "time": "6:00 AM"
+        },
+        {
+          "title": "Entrenamiento de Muay Thai",
+          "time": "6:15 AM | 7:30 AM"
+        },
+        {
+          "title": "Desayuno saludable y Ducha",
+          "time": "8:00 AM"
+        },
+        {
+          "title": "Estudio de inglés (3 horas y media)",
+          "time": "9:00 AM | 12:30 PM"
+        },
+        {
+          "title": "Almuerzo saludable",
+          "time": "12:31 PM"
+        },
+        {
+          "title": "Seguimiento de ingles",
+          "time": "1:00 PM | 2:30 PM"
+        },
+        {
+          "title": "Desarrollo de software",
+          "time": "3:00 PM | 6:00 PM"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Miércoles",
+      "schedule": [
+        {
+          "title": "Despertar",
+          "time": "6:00 AM"
+        },
+        {
+          "title": "Entrenamiento de boxeo",
+          "time": "6:15 AM | 7:30 AM"
+        },
+        {
+          "title": "Desayuno saludable y Ducha",
+          "time": "8:00 AM"
+        },
+        {
+          "title": "Estudio de inglés (3 horas y media)",
+          "time": "9:00 AM | 12:30 PM"
+        },
+        {
+          "title": "Almuerzo saludable",
+          "time": "12:31 PM"
+        },
+        {
+          "title": "Seguimiento de ingles",
+          "time": "1:00 PM | 2:30 PM"
+        },
+        {
+          "title": "Desarrollo de software",
+          "time": "3:00 PM | 6:00 PM"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Jueves",
+      "schedule": [
+        {
+          "title": "Despertar",
+          "time": "6:00 AM"
+        },
+        {
+          "title": "Entrenamiento de Muay Thai",
+          "time": "6:15 AM | 7:30 AM"
+        },
+        {
+          "title": "Desayuno saludable y Ducha",
+          "time": "8:00 AM"
+        },
+        {
+          "title": "Estudio de inglés (3 horas y media)",
+          "time": "9:00 AM | 12:30 PM"
+        },
+        {
+          "title": "Almuerzo saludable",
+          "time": "12:31 PM"
+        },
+        {
+          "title": "Seguimiento de ingles",
+          "time": "1:00 PM | 2:30 PM"
+        },
+        {
+          "title": "Desarrollo de software",
+          "time": "3:00 PM | 6:00 PM"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Viernes",
+      "schedule": [
+        {
+          "title": "Despertar",
+          "time": "6:00 AM"
+        },
+        {
+          "title": "Entrenamiento de boxeo",
+          "time": "6:15 AM | 7:30 AM"
+        },
+        {
+          "title": "Desayuno saludable y Ducha",
+          "time": "8:00 AM"
+        },
+        {
+          "title": "Estudio de inglés (3 horas y media)",
+          "time": "9:00 AM | 12:30 PM"
+        },
+        {
+          "title": "Almuerzo saludable",
+          "time": "12:31 PM"
+        },
+        {
+          "title": "Seguimiento de ingles",
+          "time": "1:00 PM | 2:30 PM"
+        },
+        {
+          "title": "Desarrollo de software",
+          "time": "3:00 PM | 6:00 PM"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Sábado",
+      "schedule": [
+        {
+          "title": "Despertar",
+          "time": "7:00 AM"
+        },
+        {
+          "title": "Entrenamiento de Mixto",
+          "time": "7:15 AM | 8:00 AM"
+        },
+        {
+          "title": "Desayuno saludable y Ducha",
+          "time": "8:00 AM"
+        },
+        {
+          "title": "Revisión de metas y planificación para la semana",
+          "time": "9:00 AM | 10:00 AM"
+        },
+        {
+          "title": "Resapaso de ingles y examenes de practica",
+          "time": "10:00 AM | 12:30 PM"
+        },
+        {
+          "title": "Almuerzo saludable",
+          "time": "12:31 PM"
+        },
+        {
+          "title": "Seguimiento de ingles",
+          "time": "1:00 PM | 2:30 PM"
+        },
+        {
+          "title": "Descanso y relajación",
+          "time": "3:00 PM | 6:00 PM"
+        }
+      ]
+    }
+  ],
+  "Bienvenida": "Te doy la bienvenida a tu app de rutinas, escoge en el menú anterior el día."
+}
