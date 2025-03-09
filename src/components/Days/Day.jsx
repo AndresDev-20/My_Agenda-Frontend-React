@@ -54,7 +54,7 @@ const Day = () => {
               {Days.schedule?.length > 0 ? (
                 Days.schedule.map((res, index) => (
                   <li key={index}>
-                    <span>{res.time}: </span> <span>{res.title}.</span>
+                    <span><input className='input__select' type="checkbox" /> {res.time}: </span> <span>{res.title}.</span>
                   </li>
                 ))
               ) : (

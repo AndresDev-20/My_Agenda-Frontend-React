@@ -75,6 +75,17 @@
 	gap: 2em;
 }
 
+
+.input__select { 
+	border-radius: 50%;
+	border: none;
+	width: 15px; 
+	height: 14px;
+	cursor: pointer;
+	background-color: rgb(174, 235, 6);
+  }
+  
+
 .day__ul > li > span:first-child{
 	width: 100%;
 	max-width: 5em;
